@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class HR_WinningLotterySolution {
+public class WinningLotterySolution {
 
     static long winningLotteryTicket(String[] tickets) {
 

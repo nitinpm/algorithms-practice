@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class HR_AcidNaming {
+public class AcidNaming {
 
     static String acidNaming(String acid_name) {
         // Complete this function

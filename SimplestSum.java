@@ -3,8 +3,7 @@ import java.util.*;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
-
-public class HR_SimplestSum {
+public class SimplestSum {
 
     static int simplestSum(int k, int a, int b) {
         // Complete this function
