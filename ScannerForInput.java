@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class ScannerTest {
+public class ScannerForInput {
         public static void main(String[] args)
         {
             // Declare the object and initialize with
