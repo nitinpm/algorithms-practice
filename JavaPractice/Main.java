@@ -21,6 +21,12 @@ public class Main {
         Base b = new Derived();
 
         Base.baseStatic();
+        System.out.println(b.hashCode());
+
+
+        //CASTING
+        /*int i = 5; long j = 10; double k = 18;
+        float s = j;  */
 
     }
 }
@@ -47,8 +53,20 @@ class Base{
 
 class Derived extends Base{
 
+    private String color;
+    private String stripePattern;
     Derived(){
+        this.color = "Green";
+        this.stripePattern = "Zebra";
         System.out.println("Derived class constructor: ");
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 7 * hash + this.color.hashCode();
+        hash = 7 * hash + this.stripePattern.hashCode();
+        return hash;
     }
 }
 

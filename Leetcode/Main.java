@@ -135,8 +135,31 @@ public class Main {
          * Output:  [1,2,4,7,5,3,6,8,9]
          */
         /*DiagonalTraverse dt = new DiagonalTraverse();
-        int[][] inp = {};
+        int[][] inp = {
+            {1, 2, 3 },
+            {4, 5, 6 },
+            {7, 8, 9}};
         dt.printArray(dt.findDiagonalOrder(inp));*/
+
+
+        /**
+         * Spiral Matrix: Given a matrix of m x n elements (m rows, n columns),
+         * return all elements of the matrix in spiral order.
+         * Input:
+         * [[ 1, 2, 3 ],
+         *  [ 4, 5, 6 ],
+         *  [ 7, 8, 9 ]]
+         * Output: [1,2,3,6,9,8,7,4,5]
+         */
+
+        SpiralMatrix sp = new SpiralMatrix();
+        int[][] inp = {
+                {1, 2, 3, 4},
+                {5, 6, 7, 8 },
+                {9, 10, 11, 12},
+                {13,14,15,16},
+                {17,18,19,20}};
+        System.out.println(sp.spiralOrder(inp).toString());
 
 
     }
