@@ -17,5 +17,26 @@ public class MainClass {
 
         */
 
+
+        //AMAZON Question
+        /*List<List<Integer>> listOfLists = new ArrayList<List<Integer>>(3);
+
+        for(int i = 0; i < 3; i++)  {
+            listOfLists.add(new ArrayList<Integer>());
+        }
+
+        listOfLists.get(0).add(1);
+        listOfLists.get(0).add(0);
+        listOfLists.get(0).add(0);
+        listOfLists.get(1).add(1);
+        listOfLists.get(1).add(0);
+        listOfLists.get(1).add(0);
+        listOfLists.get(2).add(1);
+        listOfLists.get(2).add(9);
+        listOfLists.get(2).add(1);
+
+        AmazonSolution as = new AmazonSolution();
+        as.removeObstacle(3, 3, listOfLists);*/
+
     }
 }

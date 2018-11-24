@@ -1,3 +1,5 @@
+package Leetcode;
+
 public class FindPivot {
     public int pivotIndex(int[] nums) {
 

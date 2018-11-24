@@ -1,3 +1,5 @@
+package Leetcode;
+
 public class TwiceAsBig {
     public int dominantIndex(int[] nums) {
        int max = 0,maxIndex = 0;
