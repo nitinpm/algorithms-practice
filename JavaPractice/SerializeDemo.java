@@ -1,4 +1,4 @@
-package GeeksForGeeks;
+package JavaPractice;
 
 import java.io.*;
 public class SerializeDemo {

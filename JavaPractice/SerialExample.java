@@ -1,4 +1,4 @@
-package GeeksForGeeks;
+package JavaPractice;
 
 // Java code for serialization and deserialization
 // of a Java object
