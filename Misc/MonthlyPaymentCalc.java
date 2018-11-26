@@ -1,3 +1,5 @@
+package Misc;
+
 import java.util.Scanner;
 import java.util.Vector;
 import java.util.regex.Matcher;

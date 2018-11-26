@@ -1,4 +1,4 @@
-// Java program to read data of various types using Scanner class.
+package Misc;// Java program to read data of various types using Scanner class.
 
 import java.util.Scanner;
 

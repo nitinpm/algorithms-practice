@@ -1,4 +1,5 @@
-import java.io.*;
+package Misc;
+
 import java.util.*;
 
 public class AcidNaming {
