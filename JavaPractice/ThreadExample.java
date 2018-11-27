@@ -15,6 +15,8 @@ public class ThreadExample {
 
         Test3 t5 = new Test3();
         t5.start();
+        t5.setName("T1");
+        System.out.println(t5.getName());
 
         Test3 t6 = new Test3();
         t6.start();
