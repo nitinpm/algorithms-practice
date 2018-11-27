@@ -15,6 +15,8 @@ public class DependencyInjection {
         //Setter Injection
         Empl e3 = new Empl();
         e3.setAdrs(a);
+
+        //\u000d System.out.println("Comment Executed");
     }
 }
 
