@@ -1,5 +1,7 @@
 package JavaPractice;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args){
@@ -18,15 +20,18 @@ public class Main {
         t.CarTest2();
         Car.CarTest1();*/
 
-        Base b = new Derived();
+        /*Base b = new Derived();
 
         Base.baseStatic();
-        System.out.println(b.hashCode());
+        System.out.println(b.hashCode());*/
 
 
         //CASTING
         /*int i = 5; long j = 10; double k = 18;
         float s = j;  */
+
+
+        System.out.println(Math.random()*10);
 
     }
 }
