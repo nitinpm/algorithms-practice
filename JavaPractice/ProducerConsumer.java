@@ -18,10 +18,9 @@ public class ProducerConsumer {
 }
 
 class Pizza{
-
     Queue<Integer> pizzaQueue;
 
-    public Pizza(){
+    Pizza(){
         pizzaQueue = new ArrayBlockingQueue<>(10);
     }
 }
@@ -29,11 +28,11 @@ class Pizza{
 class Producer extends Thread{
     private Pizza p;
 
-    public Producer(Pizza p){
+    Producer(Pizza p){
         this.p = p;
     }
 
-    public void produce() throws InterruptedException {
+    private void produce() throws InterruptedException {
         synchronized (p){
             if(p.pizzaQueue.size() < 10) {
                 int x = (int)(Math.random()*10);
@@ -61,17 +60,19 @@ class Producer extends Thread{
 class Consumer extends Thread{
     private Pizza p;
 
-    public Consumer(Pizza p){
+    Consumer(Pizza p){
         this.p = p;
     }
 
-    public void consume() throws InterruptedException {
+    private void consume() throws InterruptedException {
         synchronized (p){
-            if(p.pizzaQueue.isEmpty())
+            if(p.pizzaQueue.isEmpty()) {
                 p.wait();
+                System.out.println("Consumer Waiting....");
+            }
             else {
-                System.out.println(p.pizzaQueue.remove());
-                Thread.sleep(3000);
+                System.out.println("CON " + p.pizzaQueue.remove());
+                Thread.sleep(1000);
             }
         }
     }
