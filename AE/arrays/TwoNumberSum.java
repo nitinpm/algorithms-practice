@@ -1,4 +1,4 @@
-package AE;
+package AE.arrays;
 
 import java.util.HashSet;
 
@@ -24,6 +24,5 @@ public class TwoNumberSum {
     }
 
     public static void main(String[] args) {
-
     }
 }
